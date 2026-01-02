@@ -1,0 +1,4 @@
+FROM postgres:16
+ENV POSTGRES_PASSWORD=password123
+ENV POSTGRES_USER=admin
+ENV POSTGRES_DB=tugas_db

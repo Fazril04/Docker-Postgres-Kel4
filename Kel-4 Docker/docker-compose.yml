@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  db_kelompok4:
+    image: postgres:16
+    container_name: database_k4
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: tugas_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data_k4:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    container_name: adminer_k4
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      ADMINER_DEFAULT_SERVER: db_kelompok4
+    depends_on:
+      - db_kelompok4
+
+volumes:
+  pg_data_k4:
