@@ -2,7 +2,6 @@
 **Topik:** Implementasi Database Service dengan Docker (PostgreSQL & Adminer)
 
 ## 👥 Anggota Kelompok
-Silakan isi nama anggota di sini:
 1. **M.Fazril Hidayat** - 062430701478
 2. **Mawar Cantika** - 062430701473
 
@@ -45,8 +44,8 @@ sudo docker ps
 ```
 ---
 ## 💻 Cara Akses & Login
-1. Buka browser dan akses: http://localhost:8080
-2. Login dengan data berikut:
+**1. Buka browser dan akses: http://localhost:8080**
+**2. Login dengan data berikut:**
 * SystemPostgreSQL (Pilih di dropdown)
 * Server   : db_kelompok4
 * Username : admin
@@ -65,6 +64,7 @@ Untuk membuktikan bahwa data aman tersimpan di Volume:
 4. Login ulang ke Adminer.
 
 Hasil: Data yang diinput sebelumnya MASIH ADA (Tidak hilang).
+
 
 
 
