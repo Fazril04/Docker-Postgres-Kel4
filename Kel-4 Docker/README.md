@@ -1,4 +1,4 @@
-# Tugas Docker Sistem Operasi - Kelompok 4
+# Tugas Docker Praktik Sistem Operasi - Kelompok 4
 **Topik:** Implementasi Database Service dengan Docker (PostgreSQL & Adminer)
 
 ## 👥 Anggota Kelompok
@@ -65,5 +65,6 @@ Untuk membuktikan bahwa data aman tersimpan di Volume:
 4. Login ulang ke Adminer.
 
 Hasil: Data yang diinput sebelumnya MASIH ADA (Tidak hilang).
+
 
 
