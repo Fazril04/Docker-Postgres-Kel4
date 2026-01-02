@@ -36,20 +36,22 @@ Buka terminal di folder project dan ketik:
 
 ```bash
 sudo docker compose up -d
-
-###3. Cek Status
+```
+### 3. Cek Status
 Pastikan status container Up.
 
+```bash
 sudo docker ps
-
+```
+---
 ## 💻 Cara Akses & Login
 1. Buka browser dan akses: http://localhost:8080
 2. Login dengan data berikut:
-SystemPostgreSQL (Pilih di dropdown)
-Server   : db_kelompok4
-Username : admin
-Passwor  : dpassword123
-Database : tugas_db
+* SystemPostgreSQL (Pilih di dropdown)
+* Server   : db_kelompok4
+* Username : admin
+* Password : password123
+* Database : tugas_db
 
 ### Pembuktian Persistent Data (Docker Volume)
 Untuk membuktikan bahwa data aman tersimpan di Volume:
@@ -63,4 +65,5 @@ Untuk membuktikan bahwa data aman tersimpan di Volume:
 4. Login ulang ke Adminer.
 
 Hasil: Data yang diinput sebelumnya MASIH ADA (Tidak hilang).
+
 
